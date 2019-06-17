@@ -71,7 +71,7 @@ plt.tight_layout()
 fig
 
 #Evaluating the accuracy
-test_loss, test_acc = model.evaluate(x_test, Y_test)
+test_loss, test_acc = model.evaluate(x_test, y_test)
 print('Test accuracy:', test_acc)
 
 #Making predictions
