@@ -47,7 +47,7 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 
 #Training the model 
-history = model.fit(x_train, y_train, epochs=5, validation_data=(x_test, y_test))  
+history = model.fit(x_train, y_train, batch_size=64, epochs=20, validation_data=(x_test, y_test))  
 
 #plotting graphs of accuracy and loss vs epochs for training and validation set.
 fig = plt.figure()
