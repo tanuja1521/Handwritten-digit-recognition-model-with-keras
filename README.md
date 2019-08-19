@@ -1,6 +1,16 @@
 # Handwritten-digit-recognition-model-with-keras
 
+The main function, does the following:
 
+a) Loads the MNIST training images and labels ( using helper functions)
+b) initialises the number of hidden Units, batch size and learning rate alpha
+c) calls the function to train the dataset.
+d) loads the MNIST validation images and labels
+e) compares the output from our training set and the validation set
+f) tells the number of correctly classified images and the errors
+
+
+# Effect of parameters on accuracy
 1)Increasing the number of layers might increase the accuracy. But if we increase the number of hidden layers much more than the sufficient number of layers the accuracy of test set will decrease. Increasing the number of hidden layers means increasing the complexity of the hypothesis function , this will cause the network to overfit to the training set , that is it will learn the training data ,but it won't be able to generalize to the new unseen data. The model hasn't learnt the trend instead it memorizes the training set data. So, the accuracy of the training will be greater and that of the test set will be less.
 
 2)For the same number of epochs , overfitting starts to occur earlier for a model having more number of hidden units than that having comparatively lower number of them.there for an optimum number of hidden neurons should be considered.
