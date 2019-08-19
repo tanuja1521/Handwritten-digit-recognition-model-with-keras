@@ -3,10 +3,15 @@
 The main function, does the following:
 
 a) Loads the MNIST training images and labels ( using helper functions)
+
 b) initialises the number of hidden Units, batch size and learning rate alpha
+
 c) calls the function to train the dataset.
+
 d) loads the MNIST validation images and labels
+
 e) compares the output from our training set and the validation set
+
 f) tells the number of correctly classified images and the errors
 
 
